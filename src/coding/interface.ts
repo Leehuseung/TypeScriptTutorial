@@ -1,3 +1,5 @@
+import Score from "./utility";
+
 let user1:object;
 
 user1 = {
@@ -22,8 +24,8 @@ let user2 : User = {
     name : 'age',
     age : 30,
     birthYear : 2000,
-    1: 'A', //grade 변수를 number로 선언해서 매번 1,2,3,4 이런 키값을 선언안하고 대체할 수 있다.
-    2: 'B',
+    1: Score.a, //grade 변수를 number로 선언해서 매번 1,2,3,4 이런 키값을 선언안하고 대체할 수 있다.
+    2: Score.b,
     // 3: 'z' //Score로 타입을 선언해 줬기 때문에 다른 값을 입력할 수 없다.
 }
 user2.age = 10;
