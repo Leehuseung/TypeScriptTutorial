@@ -61,9 +61,9 @@ const car7: Car7 = { name: "bmw", color: "red" };
 const book: Book7 = { price: 3000 };
 
 //name이 있는 T를 받는다.
-function showName<T extends { name: string }>(data: T): string {
-    return data.name;
-}
-showName(user);
-showName(car7);
+// function showName<T extends { name: string }>(data: T): string {
+//     return data.name;
+// }
+// showName(user);
+// showName(car7);
 // showName (book);   //name이 없으므로 에러 발생.
