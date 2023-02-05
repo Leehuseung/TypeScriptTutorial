@@ -69,12 +69,12 @@ let admin11: Readonly<User11> = {
 
 type Grade = '1'|'2'|'3'|'4';
 
-enum Score {a = 'A', b = 'B', c = 'C', d = 'D'}
-const score: Record<Grade, Score> ={
-    1: Score.a,
-    2: Score.c,
-    3: Score.b,
-    4: Score.d
+enum Scorec {a = 'A', b = 'B', c = 'C', d = 'D'}
+const score: Record<Grade, Scorec> ={
+    1: Scorec.a,
+    2: Scorec.c,
+    3: Scorec.b,
+    4: Scorec.d
 }
 
 
